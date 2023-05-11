@@ -218,14 +218,14 @@ img {
     border-radius: 4px;
     margin-bottom: 30px;
 }
-.introduce {
+/* .introduce {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-}
+} */
 .our-services {
     display: flex;
     gap: 30px;
@@ -249,40 +249,40 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
-.crew {
+/* .crew {
     background-color: #f5f4fa;
     padding: 94px 0;
-}
-.crew-members {
+} */
+/* .crew-members {
     display: flex;
     gap: 30px;
     margin-top: 50px;
-}
-.description {
+} */
+/* .description {
     padding: 30px;
     text-align: center;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
+} */
 
-.icons {
+/* .icons {
     display: flex;
     flex-direction: row;
     min-width: 182px;
     gap: 10px;
-}
+} */
 
-.icon-social {
+/* .icon-social {
     padding: 12px;
     border-radius: 50%;
     width: 44px;
     height: 44px;
     display: flex;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-social > svg {
+} */
+/* .icon-social > svg {
     width: 20px;
     height: 20px;
     fill: var(--icon-color);
@@ -294,8 +294,8 @@ img {
 
 .icon-social:is(:hover, :focus) > svg {
     fill: white;
-}
-.name {
+} */
+/* .name {
     color: var(--font-color1);
     font-weight: 500;
     text-align: center;
@@ -303,23 +303,23 @@ img {
     font-size: 16px;
     line-height: 1.19;
     margin-bottom: 10px;
-}
-.type {
+} */
+/* .type {
     color: var(--font-color2);
     text-align: center;
     font-size: 16px;
     line-height: 1.19;
-}
-.our-customers {
+} */
+/* .our-customers {
     padding: 94px 0;
-}
-.customers {
+} */
+/* .customers {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-.icon-customer {
+} */
+/* .icon-customer {
     width: 170px;
     height: 92px;
     fill: var(--icon-color);
@@ -327,13 +327,13 @@ img {
     border-radius: 4px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-customer:hover,
+} */
+/* .icon-customer:hover,
 .icon-customer:focus {
     fill: var(--brand-color);
     cursor: pointer;
     border: 1px solid var(--brand-color);
-}
+} */
 
 /* style w main portfolio.html //////////////////////////////////////////////////////////////////*/
 .section {
