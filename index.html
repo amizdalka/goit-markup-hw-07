@@ -19,35 +19,37 @@
         <link rel="stylesheet" href="./css/main.min.css" />
     </head>
     <body>
-        <header class="main">
+        <header class="header">
             <div class="container menu">
-                <nav class="nav">
+                <nav class="navigation">
                     <a href="./index.html" class="logo"
-                        >Web<span class="black">Studio</span></a
+                        >Web<span class="logo--black">Studio</span></a
                     >
-                    <ul class="navigation">
+                    <ul class="navigation__list">
                         <li>
-                            <a href="./index.html" class="nav-item here-you-are"
+                            <a
+                                href="./index.html"
+                                class="navigation__item navigation__point"
                                 >Agencja</a
                             >
                         </li>
                         <li>
-                            <a href="./portfolio.html" class="nav-item"
+                            <a href="./portfolio.html" class="navigation__item"
                                 >Portfolio</a
                             >
                         </li>
-                        <li><a href="" class="nav-item">Kontakt</a></li>
+                        <li><a href="" class="navigation__item">Kontakt</a></li>
                     </ul>
                 </nav>
-                <div class="contact-data">
-                    <a href="mailto:info@devstudio.com" class="contact">
-                        <svg class="icon-mail" width="16" height="12">
+                <div class="contact">
+                    <a href="mailto:info@devstudio.com" class="contact__data">
+                        <svg class="contact__mail-icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a
                     >
-                    <a href="tel:+48111111111" class="contact">
-                        <svg class="icon-tel" width="10" height="16">
+                    <a href="tel:+48111111111" class="contact__data">
+                        <svg class="contact__phone-icon" width="10" height="16">
                             <use
                                 href="./images/icons.svg#icon-smartphone"
                             ></use>
@@ -59,61 +61,64 @@
         </header>
         <main>
             <section class="solutions">
-                <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button type="button" class="order" data-modal-open>
+                <h1 class="solutions__title">
+                    EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+                </h1>
+                <button type="button" class="solutions__button" data-modal-open>
                     Zamów usługę
                 </button>
             </section>
+
             <section>
                 <div class="container">
-                    <ul class="offer-items">
+                    <ul class="offer">
                         <li>
-                            <svg class="icon-offer">
+                            <svg class="offer__item">
                                 <use
                                     href="./images/icons.svg#icon-antenna"
                                 ></use>
                             </svg>
 
-                            <h3 class="offer">LOREM IPSUM</h3>
-                            <p class="offer-description">
+                            <h3 class="offer__label">LOREM IPSUM</h3>
+                            <p class="offer__description">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
                             </p>
                         </li>
                         <li>
-                            <svg class="icon-offer">
+                            <svg class="offer__item">
                                 <use href="./images/icons.svg#icon-clock"></use>
                             </svg>
 
-                            <h3 class="offer">LOREM IPSUM</h3>
-                            <p class="offer-description">
+                            <h3 class="offer__label">LOREM IPSUM</h3>
+                            <p class="offer__description">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
                             </p>
                         </li>
                         <li>
-                            <svg class="icon-offer">
+                            <svg class="offer__item">
                                 <use
                                     href="./images/icons.svg#icon-diagram"
                                 ></use>
                             </svg>
-                            <h3 class="offer">LOREM IPSUM</h3>
-                            <p class="offer-description">
+                            <h3 class="offer__label">LOREM IPSUM</h3>
+                            <p class="offer__description">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
                             </p>
                         </li>
                         <li>
-                            <svg class="icon-offer">
+                            <svg class="offer__item">
                                 <use
                                     href="./images/icons.svg#icon-astronaut"
                                 ></use>
                             </svg>
-                            <h3 class="offer">LOREM IPSUM</h3>
-                            <p class="offer-description">
+                            <h3 class="offer__label">LOREM IPSUM</h3>
+                            <p class="offer__description">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -122,45 +127,44 @@
                     </ul>
                 </div>
             </section>
+
             <section>
                 <div class="container">
-                    <h2 class="introduce">Czym się zajmujemy</h2>
-                    <ul class="our-services">
+                    <h2 class="section-title">Czym się zajmujemy</h2>
+                    <ul class="services">
                         <li>
-                            <div class="our-services-img">
+                            <div class="services__image">
                                 <img
                                     src="images/box1.jpg"
                                     alt="Dłonie na klawiaturze przed tabletem"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="our-services-label">
+                                <p class="services__label">
                                     Aplikacje komputerowe
                                 </p>
                             </div>
                         </li>
                         <li>
-                            <div class="our-services-img">
+                            <div class="services__image">
                                 <img
                                     src="images/box2.jpg"
                                     alt="Telefon w dłoni przed laptopem"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="our-services-label">
-                                    Aplikacje mobilne
-                                </p>
+                                <p class="services__label">Aplikacje mobilne</p>
                             </div>
                         </li>
                         <li>
-                            <div class="our-services-img">
+                            <div class="services__image">
                                 <img
                                     src="images/box3.jpg"
                                     alt="Paleta kolorów na tablecie"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="our-services-label">
+                                <p class="services__label">
                                     Rozwiązania graficzne
                                 </p>
                             </div>
@@ -168,6 +172,7 @@
                     </ul>
                 </div>
             </section>
+
             <section class="team">
                 <div class="container">
                     <h2 class="section-title">Nasz zespół</h2>
@@ -203,7 +208,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                 >
                                                     <svg
                                                         class="team__icon"
@@ -217,7 +222,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -230,7 +235,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -263,7 +268,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -276,7 +281,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                 >
                                                     <svg
                                                         class="team__icon"
@@ -290,7 +295,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -303,7 +308,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -336,7 +341,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -349,7 +354,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                 >
                                                     <svg
                                                         class="team__icon"
@@ -363,7 +368,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -376,7 +381,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -409,7 +414,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -422,7 +427,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                 >
                                                     <svg
                                                         class="team__icon"
@@ -436,7 +441,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -449,7 +454,7 @@
                                             <li>
                                                 <a
                                                     href=""
-                                                    class="team__social-icon"
+                                                    class="team__link-icon"
                                                     ><svg
                                                         class="team__icon"
                                                         tabindex="1"
@@ -467,7 +472,7 @@
                     </ul>
                 </div>
             </section>
-            <!-- sekcja nasi klienci done -->
+
             <section class="our-customers">
                 <div class="container">
                     <h2 class="section-title">Nasi klienci</h2>
@@ -543,33 +548,35 @@
                 </div>
             </section>
         </main>
-        <footer class="footer-container">
-            <div class="footer-elements container">
+        <footer class="footer-contact">
+            <div class="footer-contact__container container">
                 <div>
                     <a href="./index.html" class="logo"
-                        >Web<span class="white">Studio</span></a
+                        >Web<span class="logo--white">Studio</span></a
                     >
-                    <address class="address-wrapper">
-                        <span class="address"
+                    <address class="footer-contact__wrapper">
+                        <span class="footer-contact__address"
                             >m. Warszawa, Aleje Jerozolimskie 21</span
                         >
 
                         <a
                             href="mailto:info@devstudio.com"
-                            class="contact-footer"
+                            class="footer-contact__contact"
                             >info@devstudio.com</a
                         >
 
-                        <a href="tel:+48111111111" class="contact-footer"
+                        <a
+                            href="tel:+48111111111"
+                            class="footer-contact__contact"
                             >+48 111 111 111</a
                         >
                     </address>
                 </div>
-                <div class="find-us">
-                    <h4 class="join-us">DOŁĄCZ DO NAS</h4>
-                    <ul class="icons-join-us">
+                <div class="join-us">
+                    <h4 class="join-us__title">DOŁĄCZ DO NAS</h4>
+                    <ul class="join-us__list">
                         <li>
-                            <a href="" class="icon-footer"
+                            <a href="" class="join-us__icon"
                                 ><svg tabindex="1">
                                     <use
                                         href="./images/icons.svg#icon-instagram"
@@ -577,7 +584,7 @@
                             ></a>
                         </li>
                         <li>
-                            <a href="" class="icon-footer">
+                            <a href="" class="join-us__icon">
                                 <svg tabindex="1">
                                     <use
                                         href="./images/icons.svg#icon-twitter"
@@ -585,7 +592,7 @@
                             ></a>
                         </li>
                         <li>
-                            <a href="" class="icon-footer"
+                            <a href="" class="join-us__icon"
                                 ><svg tabindex="1">
                                     <use
                                         href="./images/icons.svg#icon-facebook"
@@ -593,7 +600,7 @@
                             ></a>
                         </li>
                         <li>
-                            <a href="" class="icon-footer"
+                            <a href="" class="join-us__icon"
                                 ><svg tabindex="1">
                                     <use
                                         href="./images/icons.svg#icon-linkedin"
@@ -602,22 +609,25 @@
                         </li>
                     </ul>
                 </div>
-
-                <form class="sign-in-form">
-                    <label class="sign-in-footer">
-                        <span class="sign-in-label"
+                <form class="newsletter-form">
+                    <label class="newsletter-form__label">
+                        <span class="newsletter-form__title"
                             >Zapisz się do newslettera</span
                         >
                         <input
                             type="email"
                             placeholder="E-mail"
-                            class="sign-in-email"
+                            class="newsletter-form__email"
                             name="email"
                         />
                     </label>
-                    <button type="submit" class="sign-in">
+                    <button type="submit" class="newsletter-form__button">
                         Zapisz się
-                        <svg width="24" height="24" class="icon-send">
+                        <svg
+                            width="24"
+                            height="24"
+                            class="newsletter-form__icon"
+                        >
                             <use href="./images/icons.svg#icon-icon-send"></use>
                         </svg>
                     </button>
@@ -626,85 +636,93 @@
         </footer>
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button class="close-btn" data-modal-close>
-                    <svg class="icon-close" tabindex="1" width="18" height="18">
+                <button class="modal__button" data-modal-close>
+                    <svg
+                        class="modal__icon"
+                        tabindex="1"
+                        width="18"
+                        height="18"
+                    >
                         <use href="./images/icons.svg#icon-icon-close"></use>
                     </svg>
                 </button>
-                <form class="data-form">
-                    <h3 class="form-heading">
+                <form class="form">
+                    <h3 class="form__heading">
                         Zostaw swoje dane w formularzu poniżej
                     </h3>
-                    <label class="form-label">
-                        <span class="label-name">Imię</span>
+                    <label class="form__label">
+                        <span class="form__label-name">Imię</span>
 
-                        <div class="fill-form">
+                        <div class="form__input-container">
                             <input
                                 type="text"
                                 name="name"
-                                class="name-input"
-                            /><svg height="18" width="18" class="fill-icon">
+                                class="form__name-input"
+                            /><svg height="18" width="18" class="form__icon">
                                 <use
                                     href="./images/icons.svg#icon-person"
                                 ></use>
                             </svg>
                         </div>
                     </label>
-                    <label class="form-label"
-                        ><span class="label-name">Telefon</span>
-                        <div class="fill-form">
+                    <label class="form__label"
+                        ><span class="form__label-name">Telefon</span>
+                        <div class="form__input-container">
                             <input
                                 type="tel"
                                 name="phone"
-                                class="phone-input"
+                                class="form__phone-input"
                             />
-                            <svg height="18" width="18" class="fill-icon">
+                            <svg height="18" width="18" class="form__icon">
                                 <use
                                     href="./images/icons.svg#icon-phone-black"
                                 ></use>
                             </svg></div
                     ></label>
-                    <label class="form-label"
-                        ><span class="label-name">Email</span>
-                        <div class="fill-form">
+                    <label class="form__label"
+                        ><span class="form__label-name">Email</span>
+                        <div class="form__input-container">
                             <input
                                 type="email"
                                 name="email"
-                                class="email-input"
-                            /><svg height="18" width="18" class="fill-icon">
+                                class="form__email-input"
+                            /><svg height="18" width="18" class="form__icon">
                                 <use
                                     href="./images/icons.svg#icon-email-black"
                                 ></use>
                             </svg></div
                     ></label>
-                    <label class="form-label"
-                        ><span class="label-name">Komentarz</span>
+                    <label class="form__label"
+                        ><span class="form__label-name">Komentarz</span>
                         <textarea
                             placeholder="Wprowadź tekst"
                             name="comment"
-                            class="comment-input"
+                            class="form__comment-input"
                         ></textarea>
                     </label>
-                    <label class="accept-label"
+                    <label class="form__accept-label"
                         ><input
                             type="checkbox"
-                            class="form-checkbox"
+                            class="form__checkbox"
                             name="accept"
                         />
-                        <span class="custom-checkbox"
+                        <span class="form__custom-checkbox"
                             ><svg height="15" width="16">
                                 <use
                                     href="./images/icons.svg#icon-icon-check"
                                 ></use></svg
                         ></span>
-                        <span class="accept-check"
+                        <span class="form__accept"
                             >Oświadczam iż akceptuję
-                            <a href="" class="terms">Regulamin</a> i
-                            <a href="" class="terms">Politykę Prywatności</a
+                            <a href="" class="form__terms">Regulamin</a> i
+                            <a href="" class="form__terms"
+                                >Politykę Prywatności</a
                             >.</span
                         ></label
                     >
-                    <button type="submit" class="send">Wyślij</button>
+                    <button type="submit" class="form__button-send">
+                        Wyślij
+                    </button>
                 </form>
             </div>
         </div>

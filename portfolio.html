@@ -17,38 +17,40 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Condensed&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/main.min.css" />
     </head>
     <body>
-        <header class="main">
+        <header class="header">
             <div class="container menu">
-                <nav class="nav">
+                <nav class="navigation">
                     <a href="./index.html" class="logo"
-                        >Web<span class="black">Studio</span></a
+                        >Web<span class="logo--black">Studio</span></a
                     >
-                    <ul class="navigation">
+                    <ul class="navigation__list">
                         <li>
-                            <a href="./index.html" class="nav-item">Agencja</a>
+                            <a href="./index.html" class="navigation__item"
+                                >Agencja</a
+                            >
                         </li>
                         <li>
                             <a
                                 href="./portfolio.html"
-                                class="nav-item here-you-are"
+                                class="navigation__item navigation__point"
                                 >Portfolio</a
                             >
                         </li>
-                        <li><a href="" class="nav-item">Kontakt</a></li>
+                        <li><a href="" class="navigation__item">Kontakt</a></li>
                     </ul>
                 </nav>
-                <div class="contact-data">
-                    <a href="mailto:info@devstudio.com" class="contact">
-                        <svg class="icon-mail" width="16" height="12">
+                <div class="contact">
+                    <a href="mailto:info@devstudio.com" class="contact__data">
+                        <svg class="contact__mail-icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a
                     >
-                    <a href="tel:+48111111111" class="contact">
-                        <svg class="icon-tel" width="10" height="16">
+                    <a href="tel:+48111111111" class="contact__data">
+                        <svg class="contact__phone-icon" width="10" height="16">
                             <use
                                 href="./images/icons.svg#icon-smartphone"
                             ></use>
@@ -59,43 +61,47 @@
             </div>
         </header>
         <main>
-            <section class="section">
+            <section class="category">
                 <div class="container">
-                    <ul class="options">
+                    <ul class="category__list">
                         <li>
-                            <button type="button" class="button">
+                            <button type="button" class="category__button">
                                 Wszystkie
                             </button>
                         </li>
                         <li>
-                            <button type="button" class="button">Strony</button>
+                            <button type="button" class="category__button">
+                                Strony
+                            </button>
                         </li>
                         <li>
-                            <button type="button" class="button">
+                            <button type="button" class="category__button">
                                 Aplikacje
                             </button>
                         </li>
                         <li>
-                            <button type="button" class="button">Dizajn</button>
+                            <button type="button" class="category__button">
+                                Dizajn
+                            </button>
                         </li>
                         <li>
-                            <button type="button" class="button">
+                            <button type="button" class="category__button">
                                 Marketing
                             </button>
                         </li>
                     </ul>
 
-                    <ul class="services">
+                    <ul class="projects">
                         <li>
-                            <figure class="service-box" tabindex="0">
-                                <div class="service-box-overlay">
+                            <figure class="projects__item" tabindex="0">
+                                <div class="projects__image">
                                     <img
                                         src="./images/app.jpg"
                                         alt="Obraz przedstawia ekran laptopa wyświetlający grafikę"
                                         width="370"
                                         height="294"
                                     />
-                                    <div class="overlay">
+                                    <div class="projects__description">
                                         <p>
                                             Technocrack jest popularną platformą
                                             wykorzystywaną do rozpowszechniania
@@ -106,22 +112,24 @@
                                         </p>
                                     </div>
                                 </div>
-                                <figcaption class="decoration">
-                                    <h3 class="project-name">Technocrack</h3>
-                                    <span class="type">Strona internetowa</span>
+                                <figcaption class="projects__title">
+                                    <h3 class="projects__name">Technocrack</h3>
+                                    <span class="projects__category"
+                                        >Strona internetowa</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
                         <li>
-                            <figure class="service-box" tabindex="0">
-                                <div class="service-box-overlay">
+                            <figure class="projects__item" tabindex="0">
+                                <div class="projects__image">
                                     <img
                                         src="./images/basketball.jpg"
                                         alt="Obraz przedstawia grających koszykarzy"
                                         width="370"
                                         height="294"
                                     />
-                                    <div class="overlay">
+                                    <div class="projects__description">
                                         <p>
                                             Technocrack jest popularną platformą
                                             wykorzystywaną do rozpowszechniania
@@ -132,24 +140,26 @@
                                         </p>
                                     </div>
                                 </div>
-                                <figcaption class="decoration">
-                                    <h3 class="project-name">
+                                <figcaption class="projects__title">
+                                    <h3 class="projects__name">
                                         Grafika New Orlean vs Golden Star
                                     </h3>
-                                    <span class="type">Dizajn</span>
+                                    <span class="projects__category"
+                                        >Dizajn</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
                         <li>
-                            <figure class="service-box" tabindex="0">
-                                <div class="service-box-overlay">
+                            <figure class="projects__item" tabindex="0">
+                                <div class="projects__image">
                                     <img
                                         src="./images/seafood.jpg"
                                         alt="Obraz przedstawia logo restauracji Seafood"
                                         width="370"
                                         height="294"
                                     />
-                                    <div class="overlay">
+                                    <div class="projects__description">
                                         <p>
                                             Technocrack jest popularną platformą
                                             wykorzystywaną do rozpowszechniania
@@ -160,24 +170,26 @@
                                         </p>
                                     </div>
                                 </div>
-                                <figcaption class="decoration">
-                                    <h3 class="project-name">
+                                <figcaption class="projects__title">
+                                    <h3 class="projects__name">
                                         Restauracja Seafood
                                     </h3>
-                                    <span class="type">Aplikacja</span>
+                                    <span class="projects__category"
+                                        >Aplikacja</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
                         <li>
-                            <figure class="service-box" tabindex="0">
-                                <div class="service-box-overlay">
+                            <figure class="projects__item" tabindex="0">
+                                <div class="projects__image">
                                     <img
                                         src="./images/headphones.jpg"
                                         alt="Obraz przedstawia słuchawki nauszne"
                                         width="370"
                                         height="294"
                                     />
-                                    <div class="overlay">
+                                    <div class="projects__description">
                                         <p>
                                             Technocrack jest popularną platformą
                                             wykorzystywaną do rozpowszechniania
@@ -188,22 +200,26 @@
                                         </p>
                                     </div>
                                 </div>
-                                <figcaption class="decoration">
-                                    <h3 class="project-name">Projekt Prime</h3>
-                                    <span class="type">Marketing</span>
+                                <figcaption class="projects__title">
+                                    <h3 class="projects__name">
+                                        Projekt Prime
+                                    </h3>
+                                    <span class="projects__category"
+                                        >Marketing</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
                         <li>
-                            <figure class="service-box" tabindex="0">
-                                <div class="service-box-overlay">
+                            <figure class="projects__item" tabindex="0">
+                                <div class="projects__image">
                                     <img
                                         src="./images/boxes.jpg"
                                         alt="Obraz przedstawia białe i beżowe pudełko"
                                         width="370"
                                         height="294"
                                     />
-                                    <div class="overlay">
+                                    <div class="projects__description">
                                         <p>
                                             Technocrack jest popularną platformą
                                             wykorzystywaną do rozpowszechniania
@@ -214,22 +230,26 @@
                                         </p>
                                     </div>
                                 </div>
-                                <figcaption class="decoration">
-                                    <h3 class="project-name">Projekt Boxes</h3>
-                                    <span class="type">Aplikacja</span>
+                                <figcaption class="projects__title">
+                                    <h3 class="projects__name">
+                                        Projekt Boxes
+                                    </h3>
+                                    <span class="projects__category"
+                                        >Aplikacja</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
                         <li>
-                            <figure class="service-box" tabindex="0">
-                                <div class="service-box-overlay">
+                            <figure class="projects__item" tabindex="0">
+                                <div class="projects__image">
                                     <img
                                         src="./images/screen.jpg"
                                         alt="Obraz przedstawia monitor"
                                         width="370"
                                         height="294"
                                     />
-                                    <div class="overlay">
+                                    <div class="projects__description">
                                         <p>
                                             Technocrack jest popularną platformą
                                             wykorzystywaną do rozpowszechniania
@@ -240,24 +260,26 @@
                                         </p>
                                     </div>
                                 </div>
-                                <figcaption class="decoration">
-                                    <h3 class="project-name">
+                                <figcaption class="projects__title">
+                                    <h3 class="projects__name">
                                         Inspiration has no Borders
                                     </h3>
-                                    <span class="type">Strona internetowa</span>
+                                    <span class="projects__category"
+                                        >Strona internetowa</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
                         <li>
-                            <figure class="service-box" tabindex="0">
-                                <div class="service-box-overlay">
+                            <figure class="projects__item" tabindex="0">
+                                <div class="projects__image">
                                     <img
                                         src="./images/book.jpg"
                                         alt="Obraz przedstawia otwarte czasopismo"
                                         width="370"
                                         height="294"
                                     />
-                                    <div class="overlay">
+                                    <div class="projects__description">
                                         <p>
                                             Technocrack jest popularną platformą
                                             wykorzystywaną do rozpowszechniania
@@ -268,25 +290,27 @@
                                         </p>
                                     </div>
                                 </div>
-                                <figcaption class="decoration">
-                                    <h3 class="project-name">
+                                <figcaption class="projects__title">
+                                    <h3 class="projects__name">
                                         Magazyn Limited Edition
                                     </h3>
 
-                                    <span class="type">Dizajn</span>
+                                    <span class="projects__category"
+                                        >Dizajn</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
                         <li>
-                            <figure class="service-box" tabindex="0">
-                                <div class="service-box-overlay">
+                            <figure class="projects__item" tabindex="0">
+                                <div class="projects__image">
                                     <img
                                         src="./images/label.jpg"
                                         alt="Obraz przedstawia metkę"
                                         width="370"
                                         height="294"
                                     />
-                                    <div class="overlay">
+                                    <div class="projects__description">
                                         <p>
                                             Technocrack jest popularną platformą
                                             wykorzystywaną do rozpowszechniania
@@ -297,23 +321,25 @@
                                         </p>
                                     </div>
                                 </div>
-                                <figcaption class="decoration">
-                                    <h3 class="project-name">Projekt LAB</h3>
+                                <figcaption class="projects__title">
+                                    <h3 class="projects__name">Projekt LAB</h3>
 
-                                    <span class="type">Marketing</span>
+                                    <span class="projects__category"
+                                        >Marketing</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
                         <li>
-                            <figure class="service-box" tabindex="0">
-                                <div class="service-box-overlay">
+                            <figure class="projects__item" tabindex="0">
+                                <div class="projects__image">
                                     <img
                                         src="./images/laptop.jpg"
                                         alt="Obraz przedstawia dłonie piszące na laptopie"
                                         width="370"
                                         height="294"
                                     />
-                                    <div class="overlay">
+                                    <div class="projects__description">
                                         <p>
                                             Technocrack jest popularną platformą
                                             wykorzystywaną do rozpowszechniania
@@ -324,11 +350,13 @@
                                         </p>
                                     </div>
                                 </div>
-                                <figcaption class="decoration">
-                                    <h3 class="project-name">
+                                <figcaption class="projects__title">
+                                    <h3 class="projects__name">
                                         Growing Business
                                     </h3>
-                                    <span class="type">Aplikacja</span>
+                                    <span class="projects__category"
+                                        >Aplikacja</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
@@ -336,33 +364,35 @@
                 </div>
             </section>
         </main>
-        <footer class="footer-container">
-            <div class="footer-elements container">
+        <footer class="footer-contact">
+            <div class="footer-contact__container container">
                 <div>
                     <a href="./index.html" class="logo"
-                        >Web<span class="white">Studio</span></a
+                        >Web<span class="logo--white">Studio</span></a
                     >
-                    <address class="address-wrapper">
-                        <span class="address"
+                    <address class="footer-contact__wrapper">
+                        <span class="footer-contact__address"
                             >m. Warszawa, Aleje Jerozolimskie 21</span
                         >
 
                         <a
                             href="mailto:info@devstudio.com"
-                            class="contact-footer"
+                            class="footer-contact__contact"
                             >info@devstudio.com</a
                         >
 
-                        <a href="tel:+48111111111" class="contact-footer"
+                        <a
+                            href="tel:+48111111111"
+                            class="footer-contact__contact"
                             >+48 111 111 111</a
                         >
                     </address>
                 </div>
-                <div class="find-us">
-                    <h4 class="join-us">DOŁĄCZ DO NAS</h4>
-                    <ul class="icons-join-us">
+                <div class="join-us">
+                    <h4 class="join-us__title">DOŁĄCZ DO NAS</h4>
+                    <ul class="join-us__list">
                         <li>
-                            <a href="" class="icon-footer"
+                            <a href="" class="join-us__icon"
                                 ><svg tabindex="1">
                                     <use
                                         href="./images/icons.svg#icon-instagram"
@@ -370,7 +400,7 @@
                             ></a>
                         </li>
                         <li>
-                            <a href="" class="icon-footer">
+                            <a href="" class="join-us__icon">
                                 <svg tabindex="1">
                                     <use
                                         href="./images/icons.svg#icon-twitter"
@@ -378,7 +408,7 @@
                             ></a>
                         </li>
                         <li>
-                            <a href="" class="icon-footer"
+                            <a href="" class="join-us__icon"
                                 ><svg tabindex="1">
                                     <use
                                         href="./images/icons.svg#icon-facebook"
@@ -386,7 +416,7 @@
                             ></a>
                         </li>
                         <li>
-                            <a href="" class="icon-footer"
+                            <a href="" class="join-us__icon"
                                 ><svg tabindex="1">
                                     <use
                                         href="./images/icons.svg#icon-linkedin"
@@ -395,21 +425,25 @@
                         </li>
                     </ul>
                 </div>
-                <form class="sign-in-form">
-                    <label class="sign-in-footer">
-                        <span class="sign-in-label"
+                <form class="newsletter-form">
+                    <label class="newsletter-form__label">
+                        <span class="newsletter-form__title"
                             >Zapisz się do newslettera</span
                         >
                         <input
                             type="email"
                             placeholder="E-mail"
-                            class="sign-in-email"
+                            class="newsletter-form__email"
                             name="email"
                         />
                     </label>
-                    <button type="submit" class="sign-in">
+                    <button type="submit" class="newsletter-form__button">
                         Zapisz się
-                        <svg width="24" height="24" class="icon-send">
+                        <svg
+                            width="24"
+                            height="24"
+                            class="newsletter-form__icon"
+                        >
                             <use href="./images/icons.svg#icon-icon-send"></use>
                         </svg>
                     </button>
