@@ -100,9 +100,9 @@
     &__comment-input:focus-within {
         border-color: $brandColor;
     }
-    &__name-input:focus-within + .fill-icon,
-    &__phone-input:focus-within + .fill-icon,
-    &__email-input:focus-within + .fill-icon {
+    &__name-input:focus-within + &__icon,
+    &__phone-input:focus-within + &__icon,
+    &__email-input:focus-within + &__icon {
         fill: $brandColor;
     }
     &__comment-input {

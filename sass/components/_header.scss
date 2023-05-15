@@ -55,14 +55,14 @@
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.03em;
-    &--black {
+    &__black {
         color: #000000;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
     }
     // wariant biały logo z sekcji footer
-    &--white {
+    &__white {
         color: #fff;
         font-weight: 700;
         font-size: 26px;
